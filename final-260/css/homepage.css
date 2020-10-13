@@ -14,7 +14,7 @@ body{
   background-blend-mode: hard-light;
   background-image:
     linear-gradient( rgba(128, 0, 255, 0), #190a04), 
-    url(../img/full/banner.jpg);
+    url(../img/lrg/banner.webp);
 }
 
 .banner .hero > div > h1 {
