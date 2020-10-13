@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+  --main-bg-color: #190a04;
+  --main-text-color: #ffffff;
+}
+
+a {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* import font */
+
+/* navigation */
+
+.navigation .top .logo {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  background-image: url('../svg/classic\ cars\ \(1\).svg');
+  background-position-x: -1px;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.navigation .bottom > div {
+  cursor: pointer;
+}
+
+.navigation .bottom > div:hover, a:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 50%;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  padding-left: 1rem;
+  padding-bottom: .3rem;
+}
+
+
+.active {
+  border-radius: 25px;
+}

@@ -1,0 +1,38 @@
+body{
+  height: 100vh;
+  border: 1px solid black;
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+}
+
+.columns {
+  display: grid;
+  padding: 0 10rem 0 10rem;
+  grid-template-columns: 1fr 1fr 1fr;  
+  grid-column-gap: 2rem;
+  grid-row-gap: 1em;
+}
+
+.columns > figure img {
+  width: 100%;
+  height: 27rem;
+  border-top-left-radius:  0.5rem;
+  border-top-right-radius:  0.5rem;
+}
+
+.columns > figure > div {
+  border-radius: 0.5rem;
+  transition: all 0.5s ease;
+  background-color: white;
+}
+
+.columns > figure > div > p {
+  color: black;
+}
+
+.columns > figure > div:hover {
+  transition: all 0.5s ease;
+  transform: translateY(-8px);
+  box-shadow: 4px 4px 20px 0px #6d6b6a;
+  cursor: pointer;
+}
