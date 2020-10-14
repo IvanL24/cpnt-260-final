@@ -1,1 +1,1 @@
-## Final 260 assignment inside 'final260'
+## This is the final assignment for  CPNT-260
