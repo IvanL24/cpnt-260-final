@@ -41,7 +41,7 @@ h2 {
   background-image:
     linear-gradient( to  top,  #190a04c7, rgba(128, 0, 255, 0), #190a04),
     linear-gradient( to  right, #190a04, rgba(128, 0, 255, 0), rgb(0, 0, 0)), 
-    url(../img/full/text-background.jpg);
+    url(../img/lrg/text-background.jpg);
 }
 
 .long-form .text  {
