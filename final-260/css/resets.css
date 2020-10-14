@@ -21,7 +21,7 @@ body {
 }
 
 p {
-  font-size: clamp(8px, 2vw, 16px);
+  font-size: clamp(11px, 2.5vw, 18px);
 }
 
 a {
