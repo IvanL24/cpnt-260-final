@@ -1,47 +1,50 @@
-body{
-  height: 100vh;
-  border: 1px solid black;
-  color: var(--main-text-color);
-  background-color: var(--main-bg-color);
-}
+
 
 .team-cards {
+  flex: auto;
+  justify-content: center;
+  flex-wrap: wrap;
   margin: 0 4rem 0 4rem;
 }
 
-.team-cards .container {
+/* ********** manager CARD *********** */
+
+.team-cards .owner {
   width: 24rem;
   flex-direction: column;
   border-radius: 20px;
   border: 1px solid white;
   background-color: black;
+  flex-grow:0;
+  flex-shrink:1;
+  flex-basis:25ch;
 }
 
-.team-cards .container .card {
+.team-cards .owner .card {
   height: 15rem;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   background-size: cover;
   background-position: center;
-  background-image: url(../img/full/pexels-katie-salerno-18765.jpg);
+  background-image: url(../img/lrg/pexels-katie-salerno-18765.webp);
 }
 
-.team-cards .container .card .banner {
+.team-cards .owner .card .banner {
   height: 18rem;
   padding: 10rem 1rem 0 0;
 }
 
-.team-cards .container .card .banner .profile {
+.team-cards .owner .card .banner .profile {
   width: 8rem;
   height: 8rem;
   border-radius: 50%;
-  border: 3px solid gray;
+  border: 10px solid black;
   background-size: cover;
   background-position: center;
-  background-image: url(../img/full/pexels-felix-haumann-3626241.jpg);
+  background-image: url(../img/lrg/pexels-andrea-piacquadio-927022.webp);
 }
 
-.team-cards .container .footer ul {
+.team-cards .owner .footer ul {
   
   margin: 0;
   height: 3rem;
@@ -49,7 +52,115 @@ body{
   justify-content: center;
 }
 
-.team-cards .container .footer ul li {
+.team-cards .owner .footer ul li {
   margin: 0 0.7rem 0 0.7rem;
   font-size: 37px;
 }
+
+
+
+/* ********** MANAGER CARD *********** */
+
+.team-cards .manager {
+  width: 24rem;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: black;
+  flex-grow:0;
+  flex-shrink:1;
+  flex-basis:25ch;
+}
+
+.team-cards .manager .card {
+  height: 15rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/lrg/pexels-neil-kelly-flip.webp);
+}
+
+.team-cards .manager .card .banner {
+  height: 18rem;
+  padding: 10rem 1rem 0 0;
+}
+
+.team-cards .manager .card .banner .profile {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border: 10px solid black;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/lrg/pexels-ketut-subiyanto-4246266.webp);
+}
+
+.team-cards .manager .footer ul {
+  
+  margin: 0;
+  height: 3rem;
+  padding: 0 2rem 0 2rem;
+  justify-content: center;
+}
+
+.team-cards .manager .footer ul li {
+  margin: 0 0.7rem 0 0.7rem;
+  font-size: 37px;
+}
+
+
+/* ********** FRONT DESK CARD *********** */
+
+.team-cards .front-desk {
+  width: 24rem;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: black;
+  flex-grow:0;
+  flex-shrink:1;
+  flex-basis:25ch;
+}
+
+.team-cards .front-desk .card {
+  height: 15rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/lrg/pexels-mark-degnan-1008659.webp);
+}
+
+.team-cards .front-desk .card .banner {
+  height: 18rem;
+  padding: 10rem 1rem 0 0;
+}
+
+.team-cards .front-desk .card .banner .profile {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border: 10px solid black;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/lrg/pexels-ketut-subiyanto-4473398.webp);
+}
+
+.team-cards .front-desk .footer ul {
+  
+  margin: 0;
+  height: 3rem;
+  padding: 0 2rem 0 2rem;
+  justify-content: center;
+}
+
+.team-cards .front-desk .footer ul li {
+  margin: 0 0.7rem 0 0.7rem;
+  font-size: 37px;
+}
+
+@media (max-width: ) {
+  
+}
+

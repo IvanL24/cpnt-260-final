@@ -56,10 +56,3 @@ body {
   transition: all 0.5s ease;
   transform: translateY(-3px);
 }
-
-footer{
-  position: absolute;
-  bottom: 0;
-  padding-left: 1rem;
-  padding-bottom: .3rem;
-}

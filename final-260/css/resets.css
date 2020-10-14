@@ -9,11 +9,19 @@ body {
   height: 100vh;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
 }
+
+
 
 :root{
   --main-bg-color: #190a04;
   --main-text-color: #ffffff;
+}
+
+p {
+  font-size: clamp(8px, 2vw, 16px);
 }
 
 a {
@@ -23,8 +31,6 @@ a {
 ul {
   list-style-type: none;
 }
-
-/* import font */
 
 /* navigation */
 
@@ -39,6 +45,7 @@ ul {
 }
 
 .navigation .bottom > div {
+  font-size: clamp(9px, 1vw, 17px);
   cursor: pointer;
 }
 
@@ -48,11 +55,14 @@ ul {
   opacity: 50%;
 }
 
+/* ****** FOOTER UPDATED ******* */
+
 footer{
-  position: absolute;
+  position: sticky;
   bottom: 0;
-  padding-left: 1rem;
-  padding-bottom: .3rem;
+  display: flex;
+  justify-content: center;
+  
 }
 
 
